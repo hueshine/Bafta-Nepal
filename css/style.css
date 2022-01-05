@@ -1,0 +1,315 @@
+.dark-bg a, .dark-bg p, .dark-bg * {
+  color: #ffffff;
+}
+
+.cta {
+  text-align: right;
+}
+
+.cta .more, .cta .more-style, .cta .slider-nav span {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  color: #110808;
+  font-family: 'Oswald',sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-right: 120px;
+}
+
+.cta .more:after, .cta .more-style:after, .cta .slider-nav span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-image: url(../images/long-left-arrow.svg);
+  background-size: cover;
+  background-position: 50%;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.cta .white::after {
+  background-image: url(../images/long-left-arrow-white.svg);
+}
+
+header {
+  padding: 15px 0;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+header .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .wrap .logo img {
+  width: 204px;
+  height: 87px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+header .wrap .slogan strong {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  color: #545454;
+  font-weight: 500;
+}
+
+header .wrap .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .wrap .menu .link {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 35px;
+  border: 1px solid #545454;
+  margin-top: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+header .wrap .menu .link:hover {
+  background: #545454;
+  color: #ffffff;
+}
+
+header .wrap .menu .icon {
+  padding: 3px 6px 6px;
+  border: 1px solid #545454;
+  border-radius: 50%;
+  margin-left: 16px;
+  position: relative;
+  z-index: 999;
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+header .wrap .menu .icon:hover {
+  -webkit-transform: scale(1.1) rotate(10deg);
+          transform: scale(1.1) rotate(10deg);
+}
+
+header .wrap .menu .icon svg {
+  width: 22px;
+}
+
+.intro {
+  text-align: center;
+  position: relative;
+}
+
+.intro h2 {
+  margin-bottom: 30px;
+}
+
+.intro p {
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+.intro .goto {
+  position: absolute;
+  padding: 6px 4px 1px;
+  border: 1px solid #545454;
+  border-radius: 50%;
+  position: relative;
+  z-index: 999;
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  top: 60px;
+}
+
+.intro .goto ion-icon {
+  font-size: 20px;
+}
+
+.intro .goto:hover {
+  color: #545454;
+}
+
+.mission .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mission .wrap .left {
+  width: 40%;
+  max-width: 500px;
+}
+
+.mission .wrap .left img {
+  width: 100%;
+  height: auto;
+}
+
+.mission .wrap .left p {
+  margin: 70px 0;
+}
+
+.mission .wrap .right {
+  width: 40%;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mission .wrap .right h1 {
+  padding-left: 50px;
+}
+
+.mission .wrap .right img {
+  margin-top: auto;
+  width: 100%;
+  height: auto;
+}
+
+.service-list li {
+  border-bottom: 1px solid #f6f6f6;
+  padding: 120px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-list li:last-of-type {
+  border: 0;
+}
+
+.service-list li h2 {
+  width: 40%;
+  line-height: 80px;
+}
+
+.service-list li .content {
+  width: 50%;
+}
+
+.service-list li .content p {
+  margin-bottom: 60px;
+}
+
+.service-list li .content .white {
+  color: #ffffff;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider h2 {
+  font-weight: 500;
+}
+
+.slider .featured-slider {
+  margin: 100px 0;
+  position: relative;
+  display: block;
+}
+
+.slider .featured-slider .featured-slide {
+  width: 891px;
+  padding: 50px;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+
+.slider .featured-slider .featured-slide .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  outline: none;
+}
+
+.slider .featured-slider .featured-slide .inner .cover {
+  width: 45%;
+  height: 350px;
+  background-position: 50%;
+  overflow: hidden;
+}
+
+.slider .featured-slider .featured-slide .inner .content {
+  padding-left: 50px;
+  width: 55%;
+}
+
+.slider .featured-slider .featured-slide .inner .content strong {
+  display: block;
+  font-size: 50px;
+  line-height: 54px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: 'Oswald',sans-serif;
+}
+
+.slider .featured-slider .slick-slide {
+  display: block;
+  outline: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.slider .slick-slider {
+  position: relative;
+  display: block;
+}
+
+.slider .slider-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider .slider-nav .nav {
+  width: 35px;
+}
+
+.slider .slider-nav span {
+  margin: 0 50px;
+}
+/*# sourceMappingURL=style.css.map */
