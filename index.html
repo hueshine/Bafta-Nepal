@@ -9,13 +9,13 @@
     <meta name="description" content="" />		
     <meta name="keywords" content=" BAFTA, Business, Advisory, Finance, Taxation, Accounting" />
     
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -115,25 +115,64 @@
     </section>
 
     <section class="slider part">
-        <div class="container">
+        <div class="containerss">
             <h2 class="text-center">CUSTOMERS IN THE SPOTLIGHT</h2>
-            <div class="featured-slider slick-slider">
-                <div class="featured-slide slick-slide">
+            <div class="events-slider owl-carousel">
+                <div class="item">
                     <a href="#" class="inner">
-                        <div class="cover" style="background :url('https://kroton.be/wp-content/uploads/2021/12/CaveO-1.jpg') center; background-size:cover;"></div>
-                        <div class="content">
-                            <strong>"WE SPECIALIZE IN FRENCH QUALITY WINES AT ACCESSIBLE PRICES"</strong>
+                        <div class="event-img">
+                            <img src="./images/mission.jpg" alt="">
+                        </div>
+                        <div class="event-des">
+                            <strong>Arogin</strong>
                             <div class="cta">
                                 <span class="more">Read more</span>
                             </div>
                         </div>
                     </a>
-                </div> 
+                </div>
+                <div class="item">
+                    <a href="#" class="inner">
+                        <div class="event-img">
+                            <img src="./images/vision.jpg" alt="">
+                        </div>
+                        <div class="event-des">
+                            <strong>Arogin</strong>
+                            <div class="cta">
+                                <span class="more">Read more</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="inner">
+                        <div class="event-img">
+                            <img src="./images/mission.jpg" alt="">
+                        </div>
+                        <div class="event-des">
+                            <strong>Arogin</strong>
+                            <div class="cta">
+                                <span class="more">Read more</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="inner">
+                        <div class="event-img">
+                            <img src="./images/mission.jpg" alt="">
+                        </div>
+                        <div class="event-des">
+                            <strong>Arogin</strong>
+                            <div class="cta">
+                                <span class="more">Read more</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-
-
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -143,9 +182,25 @@
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    <!-- <script>
+            $('.events-slider').owlCarousel({
+            items:4,
+            merge:true,
+            loop:true,
+            margin:10,
+            video:true,
+            lazyLoad:true,
+            responsive:{
+                480:{
+                    items:2
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+    </script> -->
 
 </body>
 </html>
