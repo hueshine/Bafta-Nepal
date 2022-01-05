@@ -46,7 +46,23 @@
 }
 
 @media screen and (max-width: 480px) { 
-    
+    .intro {
+        height: auto;
+        display: block;
+        padding: 100px 20px;
+    }
 
+    .service-list li {
+        display: block;
+    }
+
+    .service-list li h2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service-list li .content {
+        width: 100%;
+    }
 
 }
