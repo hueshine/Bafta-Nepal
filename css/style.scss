@@ -17,13 +17,14 @@
         display: inline-block;
         position: relative;
         text-transform: uppercase;
-        color:#c29032;
+        color:#000;
         font-family: 'Oswald',sans-serif;
         font-weight: 700;
         font-size: 22px;
         padding-right: 120px;
 
         &:hover{
+            color: #c29032;
             &:after {
                 transform: translate(10px,-50%);
             }
@@ -127,7 +128,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    h2 {
+    h1 {
         margin-bottom: 30px;
     }
 
@@ -242,13 +243,13 @@ header {
     
                 &.owl-prev {
                     left: 40vw;
-                    top: 49vw;
+                    bottom: -77px;
                     border: 1px solid #1b1b1b;
                 }
     
                 &.owl-next {
                     right: 40vw;
-                    top: 49vw;
+                    bottom: -77px;
                     border: 1px solid #1b1b1b;
                 }
     
@@ -325,16 +326,16 @@ header {
     .owl-carousel{
         .owl-nav {
             button {
-                margin-top: 50px;
+            
                 &.owl-prev {
                     left: 40vw;
-                    top: 30vw;
+                    bottom: -126px;
                     border: 1px solid #1b1b1b;
                 }
     
                 &.owl-next {
                     right: 40vw;
-                    top: 30vw;
+                    bottom: -126px;
                     border: 1px solid #1b1b1b;
                 }
     
@@ -364,7 +365,7 @@ header {
             padding-right: 0 !important;
 
             .owl-item{
-                width: 300px !important;
+                width: 350px !important;
                 margin-right: 20px !important;
     
                 .item {
@@ -379,8 +380,8 @@ header {
                             background-repeat: no-repeat;
                             background-size: cover;
                             color: #fff;
-                            width: 285px;
-                            min-height: 350px;
+                            width: 325px;
+                            min-height: 400px;
                             overflow: hidden;
                             position: relative;
                     
@@ -417,7 +418,7 @@ header {
                                     -webkit-box-orient: vertical;
                                 }
                                 .cta{
-                                    margin-top: 235px;
+                                    margin-top: 285px;
                                     text-align: left;
                                     .more{
                                         font-size: 18px;
