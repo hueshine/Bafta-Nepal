@@ -8,9 +8,6 @@ body{
     color: #110808;
 }
 
-.part{
-    padding: 150px 0;
-}
 
 .display-none{
     display: none;
@@ -23,16 +20,23 @@ h1,h2,h3,h4,h5,h6,a {
 }
 
 h1 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
     font-size: 90px;
     line-height: 95px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: 70px;
-    line-height: 70px;
-    font-weight: 700;
+h3{
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -69,14 +73,15 @@ p {
 
 section {
     overflow: hidden;
+    padding: 150px 0;
 }
 
-.bg-color {
-    background-color: #d2c2b0;
+.bg{
+    background-color: #5858583b;
 }
 
 .dark-bg {
-    background: #545454;
+    background: #1b1b1b;
 
 }
 

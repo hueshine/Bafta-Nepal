@@ -1,15 +1,22 @@
 @media screen and (min-width: 1900px) {
 
-	
+    .container {
+        max-width: 1500px;
+    }
 }
 
 @media screen and (max-width: 1600px) {
      
-    
+    .container {
+        max-width: 1300px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     
+    .container {
+        max-width: 980px;
+    }
     .mission .wrap .left, .mission .wrap .right{
         width: 43%;
     }
@@ -23,12 +30,16 @@
         display: none;
     }
 
-    .part{
+    section{
         padding: 80px 0;
     }
 
     .mission .wrap{
         flex-direction: column-reverse;
+    }
+
+    .mission .right img{
+        display: none;
     }
 
     .mission .left, .mission .right {
@@ -42,6 +53,37 @@
 
     .mission h1{
         padding-left: 0 !important;
+    }
+
+    .service-list h1 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .service-list li:first-child {
+        padding-top: 0;
+    }
+    
+    .service-list li {
+        padding: 60px 0;
+        flex-direction: column;
+    }
+
+    .service-list .content {
+        width: 100% !important;
+    }
+
+    footer{
+        padding: 60px 0;
+    }
+
+    footer .top{
+        justify-content: center;
+    }
+
+    footer .right{
+        
+        width: 80% !important;
     }
 }
 
@@ -65,4 +107,16 @@
         width: 100%;
     }
 
+    footer .footer-contact ul{
+        justify-content: space-evenly !important;
+        margin: 0 5px !important;
+    }
+
+    footer .footer-contact li{
+        padding: 0 22px 10px ;
+    }
+
+    footer .bottom{
+        margin-top: 40px;
+    }
 }
