@@ -38,7 +38,7 @@ $('.news-slider').owlCarousel({
         },
         1000:{
             items:3,
-            stagePadding: 120,
+            stagePadding: 100,
             
         }
     }
