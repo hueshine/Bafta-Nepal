@@ -518,7 +518,7 @@ header .wrap .menu .icon svg {
 }
 
 footer {
-  padding: 100px 0 70px;
+  padding: 100px 0 0px;
 }
 
 footer p {
@@ -527,51 +527,10 @@ footer p {
   line-height: 20px;
 }
 
-footer .top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-footer .top ul {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 20px;
-}
-
-footer .top ul li:last-child {
-  margin-right: 20px;
-}
-
-footer .top ul li img {
-  width: 100%;
-}
-
-footer .top ul li a p:hover {
-  text-decoration: underline;
-}
-
-footer .top ul .logo {
-  width: 20%;
-}
-
 footer .bottom {
   margin-top: 80px;
   border-top: 1px solid #ffffff;
-  padding-top: 80px;
+  padding: 20px 0;
 }
 
 footer .bottom ul {
@@ -588,5 +547,37 @@ footer .bottom ul {
 footer .bottom ul li {
   padding: 0 30px;
   text-align: center;
+}
+
+.footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-top .footer-logo a h3 {
+  font-size: 66px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.footer-top .footer-logo a p {
+  font-size: 18px;
+}
+
+.footer-top .address a {
+  display: block;
+  text-align: right;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.footer-top .address a.mail {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  font-size: 22px;
 }
 /*# sourceMappingURL=style.css.map */
