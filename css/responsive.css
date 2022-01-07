@@ -97,9 +97,8 @@
         display: none;
     }
 
-    .mission .left, .mission .right {
-        width: 100% !important;
-        max-width: 100% !important;
+    .mission .wrap .left, .mission .wrap .right {
+        width: 100%;
     }
 
     .mission .right, .mission h1 {
