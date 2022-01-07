@@ -34,9 +34,15 @@ $('.news-slider').owlCarousel({
         },
         600:{
             items:1,
+            stagePadding: 20,
             
         },
         1000:{
+            items:3,
+            stagePadding: 100,
+            
+        },
+        1500:{
             items:3,
             stagePadding: 200,
             

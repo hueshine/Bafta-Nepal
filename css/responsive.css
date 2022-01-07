@@ -4,9 +4,7 @@
         max-width: 1500px;
     }
 
-    /* .slider .owl-item{
-        width: 1200px !important;
-    } */
+    
 }
 
 @media screen and (max-width: 1600px) {
@@ -15,9 +13,13 @@
         max-width: 1300px;
     }
 
-    /* .slider .owl-item{
-        width: 850px !important;
-    } */
+}
+
+@media screen and (max-width: 1400px) {
+     
+    .news .news-slider .inner {
+        height: 420px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,12 +30,16 @@
     .mission .wrap .left, .mission .wrap .right{
         width: 43%;
     }
-    .slider .owl-carousel .owl-prev {
+    .clients-slider .owl-carousel .owl-prev {
         left: 35vw !important;
     }
     
-    .slider .owl-carousel .owl-next {
+    .clients-slider .owl-carousel .owl-next {
         right: 35vw !important;
+    }
+
+    .news .news-slider .inner {
+        height: 307px;
     }
 
     .news .owl-carousel .owl-prev {
@@ -44,16 +50,16 @@
         right: 38vw !important;
     }
 
-    .slider .client-img{
+    .clients-slider .client-img{
         width: 55% !important;
     }
     
-    .slider .client-des{
+    .clients-slider .client-des{
         
-        padding-left: 20px !important;
+        padding-left: 15px !important;
     }
 
-    .slider .client-des p{
+    .clients-slider .client-des p{
         
         margin: 30px 0 !important;
         overflow: hidden;
@@ -64,18 +70,23 @@
         -webkit-box-orient: vertical;
     }
 
-    .slider .client-slider .item{
-        padding: 0 20px;
+    .clients-slider .client-slider .item{
+        padding: 0 7px;
     }
 
-    /* .news .news-slider .owl-item{
-        width: 270px !important;
+    .news .news-slider .inner .heading {
+        padding: 15px;
     }
 
-    .news-slider .card-overlay {
-        width: 267px !important;
-        min-height: 300px !important;
-    } */
+    .news .heading h4{
+        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 1;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -99,6 +110,7 @@
 
     .mission .wrap .left, .mission .wrap .right {
         width: 100%;
+        max-width: 100%;
     }
 
     .mission .right, .mission h1 {
@@ -127,20 +139,16 @@
         width: 100% !important;
     }
 
-    .slider .owl-carousel .owl-prev {
+    .clients-slider .owl-carousel .owl-prev, .news .owl-carousel .owl-prev  {
         left: 30vw !important;
     }
     
-    .slider .owl-carousel .owl-next {
+    .clients-slider .owl-carousel .owl-next, .news .owl-carousel .owl-next {
         right: 30vw !important;
     }
 
-    .news .owl-carousel .owl-prev {
-        left: 33vw !important;
-    }
-    
-    .news .owl-carousel .owl-next {
-        right: 33vw !important;
+    .news .news-slider .inner {
+        height: 380px;
     }
 
     footer{
@@ -156,6 +164,10 @@
         padding: 100px 20px;
     }
 
+    .intro .goto {
+        bottom: 20px;
+    }
+
     .service-list li {
         display: block;
     }
@@ -169,28 +181,28 @@
         width: 100%;
     }
 
-    .slider .owl-carousel .owl-prev {
+    .clients-slider .owl-carousel .owl-prev {
         left: 14vw !important;
     }
     
-    .slider .owl-carousel .owl-next {
+    .clients-slider .owl-carousel .owl-next {
         right: 14vw !important;
     }
 
-    .slider .inner{
+    .clients-slider .inner{
         flex-direction: column;
     }
     
-    .slider .item{
+    .clients-slider .item{
         padding: 10px !important;
     }
 
-    .slider .client-des{
+    .clients-slider .client-des{
         padding-left: 0 !important;
         margin-top: 20px;
     }
 
-    .slider .inner .client-img, .client-des{
+    .clients-slider .inner .client-img, .client-des{
         width: 100% !important;
     }
 
@@ -202,15 +214,32 @@
         right: 17vw !important;
     }
     
+    footer{
+        padding: 40px 0;
+    }
+
     .footer-top{
         flex-direction: column;
+    }
+
+    .footer-top .footer-logo a{
+        text-align: center;
     }
 
     .footer-top .address{
         margin-top: 40px;
     }
 
+    .footer-top .address a {
+        text-align: center !important;
+    }
+
     .footer-top .mail{
         border-bottom: 0 !important;
+    }
+
+    footer .bottom {
+        margin-top: 35px;
+        padding: 15px 0 0;
     }
 }

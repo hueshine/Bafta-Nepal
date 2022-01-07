@@ -51,6 +51,43 @@
     } 
 }
 
+.slider{
+    .owl-nav {
+        button {
+
+            &.owl-prev {
+                left: 38vw;
+                bottom: -77px;
+                border: 1px solid #1b1b1b;
+            }
+
+            &.owl-next {
+                right: 38vw;
+                bottom: -77px;
+                border: 1px solid #1b1b1b;
+            }
+
+            span{
+                font-size: 38px;
+                margin-top: -15px;
+            }
+
+            display: flex;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;;
+            justify-content: center;
+            align-self: center;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    .slider-btn {
+        padding-top: 42px;
+        text-align: center;
+    } 
+}
+
 header {
     padding: 15px 0;
     box-shadow: 0 3px 10px rgba(0,0,0,0.16);
@@ -224,52 +261,25 @@ header {
     }
 }
 
-.slider{
+.clients-slider{
     overflow: hidden;
 
-    .slider-btn {
-        padding-top: 42px;
-        text-align: center;
-    } 
 
     h1{
         font-weight: 500;
     }
-    .owl-nav {
-        button {
-
-            &.owl-prev {
-                left: 40vw;
-                bottom: -77px;
-                border: 1px solid #1b1b1b;
-            }
-
-            &.owl-next {
-                right: 40vw;
-                bottom: -77px;
-                border: 1px solid #1b1b1b;
-            }
-
-            span{
-                font-size: 38px;
-                margin-top: -15px;
-            }
-
-            display: flex;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;;
-            justify-content: center;
-            align-self: center;
-            position: absolute;
-            bottom: 0;
-        }
-    }
-
     
     .client-slider {
        
         margin-top: 100px;
+        
+        .owl-item {
+            opacity: 0.5;
+
+            &.active {
+                opacity: 1;
+            }
+        }
 
         .item {
             position: relative;
@@ -352,9 +362,6 @@ header {
                 bottom: 20px;
                 left: 20px;
             }
-
-
-
         }
     }
 }
