@@ -1,9 +1,3 @@
-@keyframes scrollDownAnimation {
-    0%   {opacity: 0; transform: translate(0, 0)}
-    40%  {opacity: 1;}
-    80%  {opacity: 0; transform: translate(0, 290%)}
-    100% {opacity: 0;}
-  }
 
 .dark-bg{
     a, p, *{
@@ -13,6 +7,7 @@
 
 .cta{
     text-align: right;
+    
     .more, .more-style, .slider-nav span {
         display: inline-block;
         position: relative;
@@ -240,38 +235,37 @@ header {
     h1{
         font-weight: 500;
     }
-    .owl-carousel{
-        .owl-nav {
-            button {
-    
-                &.owl-prev {
-                    left: 40vw;
-                    bottom: -77px;
-                    border: 1px solid #1b1b1b;
-                }
-    
-                &.owl-next {
-                    right: 40vw;
-                    bottom: -77px;
-                    border: 1px solid #1b1b1b;
-                }
-    
-                span{
-                    font-size: 38px;
-                    margin-top: -15px;
-                }
-    
-                display: flex;
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;;
-                justify-content: center;
-                align-self: center;
-                position: absolute;
-                bottom: 0;
+    .owl-nav {
+        button {
+
+            &.owl-prev {
+                left: 40vw;
+                bottom: -77px;
+                border: 1px solid #1b1b1b;
             }
+
+            &.owl-next {
+                right: 40vw;
+                bottom: -77px;
+                border: 1px solid #1b1b1b;
+            }
+
+            span{
+                font-size: 38px;
+                margin-top: -15px;
+            }
+
+            display: flex;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;;
+            justify-content: center;
+            align-self: center;
+            position: absolute;
+            bottom: 0;
         }
     }
+
     
     .client-slider {
        
@@ -307,130 +301,62 @@ header {
         }
         
     }
-    // .owl-item {
-    //     opacity: 0.6;
-
-    //     &.active {
-    //         opacity: 1;
-    //     }
-    // }
 }
 
-.news{
-    h1{
+.news {
+    h1 {
         font-weight: 500;
     }
-    .owl-carousel{
-        .owl-nav {
-            button {
-            
-                &.owl-prev {
-                    left: 40vw;
-                    bottom: -126px;
-                    border: 1px solid #1b1b1b;
-                }
-    
-                &.owl-next {
-                    right: 40vw;
-                    bottom: -126px;
-                    border: 1px solid #1b1b1b;
-                }
-    
-                span{
-                    font-size: 38px;
-                    margin-top: -15px;
-                }
-    
-                display: flex;
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;;
-                justify-content: center;
-                align-self: center;
-                position: absolute;
-                bottom: 0;
-            }
-        }
-    }
-    
+
     .news-slider {
-       
-        margin-top: 80px;
+        margin-top: 40px;
 
-        .owl-stage{
-            padding-left: 0 !important;
-            padding-right: 0 !important;
+        .owl-item {
+            opacity: 0.5;
 
-            .owl-item{
-                width: 350px !important;
-                margin-right: 20px !important;
-    
-                .item {
-                    padding: 0 5px;
-                    .inner {
-                        display: flex;
-                        align-items: flex-end;
-        
-                        .card-overlay {
-                            background-position: center center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: #fff;
-                            width: 340px;
-                            min-height: 380px;
-                            overflow: hidden;
-                            position: relative;
-                    
-                            &::before {
-                                background: #1b1b1ba0;
-                                content: '';
-                                position: absolute;
-                                top: 0;
-                                bottom: 0;
-                                left: 0;
-                                right: 0;
-                                z-index: 1;
-                            }
-                    
-                            .text-overlay{
-                                top: 3%;
-                                left: 3%;
-                                right: 0;
-                                height: 25%;
-                                justify-content: center;
-                                position: absolute;
-                                z-index: 2;
-                                width: 97%;
-                                
-                                h4{
-                                    overflow: hidden;
-                                    text-overflow: ellipsis;
-                                    margin-bottom: 0;
-                                    color: #ffffff;
-                                    display: -webkit-box;
-                                    max-width: 100%;
-                                    line-height: 1.7;
-                                    -webkit-line-clamp: 2;
-                                    -webkit-box-orient: vertical;
-                                }
-                                .cta{
-                                    margin-top: 240px;
-                                    text-align: left;
-                                    .more{
-                                        font-size: 18px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+            &.active {
+                opacity: 1;
             }
         }
+
+        .inner {
+            height: 576px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.5);
+                left: 0;
+                top: 0;
+                z-index: 1;
+            }
+
+            .heading {
+                position: relative;
+                z-index: 2;
+                padding: 20px ;
+
+                h4 {
+                    color: #fff;
+                }
+            }
+
+            .cta {
+                position: absolute;
+                z-index: 2;
+                bottom: 20px;
+                left: 20px;
+            }
+
+
+
+        }
     }
-    .slider-btn {
-        margin-top: 91px;
-        text-align: center;
-    } 
 }
 
 footer{
@@ -497,3 +423,10 @@ footer{
     }
 }
 
+
+@keyframes scrollDownAnimation {
+    0%   {opacity: 0; transform: translate(0, 0)}
+    40%  {opacity: 1;}
+    80%  {opacity: 0; transform: translate(0, 290%)}
+    100% {opacity: 0;}
+  }
