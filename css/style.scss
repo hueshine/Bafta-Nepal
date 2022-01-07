@@ -299,12 +299,8 @@ header {
                     padding-left: 50px;
                     width: 55%;
 
-                    h3 {
-                        display: block;
-                        margin-bottom: 50px;
-                    }
                     p{
-                        margin-bottom: 50px;
+                        margin: 50px 0;
                     }
                 }
             }
@@ -371,7 +367,6 @@ header {
     
                 .item {
                     padding: 0 5px;
-                   
                     .inner {
                         display: flex;
                         align-items: flex-end;
@@ -381,8 +376,8 @@ header {
                             background-repeat: no-repeat;
                             background-size: cover;
                             color: #fff;
-                            width: 325px;
-                            min-height: 400px;
+                            width: 340px;
+                            min-height: 380px;
                             overflow: hidden;
                             position: relative;
                     
@@ -419,7 +414,7 @@ header {
                                     -webkit-box-orient: vertical;
                                 }
                                 .cta{
-                                    margin-top: 265px;
+                                    margin-top: 240px;
                                     text-align: left;
                                     .more{
                                         font-size: 18px;
@@ -446,7 +441,44 @@ footer{
         line-height: 20px;
     }
     
-  
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+    
+        .footer-logo {
+            a {
+                h3 {
+                    font-size: 66px;
+                    letter-spacing: 5px;
+                    margin-bottom: 20px;
+                }
+    
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    
+        .address {
+            a {
+                display: block;
+                text-align: right;
+                font-size: 19px;
+                font-weight: 300;
+
+                &:hover{
+                    color: #ffffff;
+                }
+            }
+    
+            a.mail {
+                margin-bottom: 10px;
+                border-bottom: 1px solid #fff;
+                font-size: 22px;
+            }
+        }
+    }
+
     .bottom{
 
         margin-top: 80px;
@@ -465,36 +497,3 @@ footer{
     }
 }
 
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-
-    .footer-logo {
-        a {
-            h3 {
-                font-size: 66px;
-                letter-spacing: 5px;
-                margin-bottom: 20px;
-            }
-
-            p {
-                font-size: 18px;
-            }
-        }
-    }
-
-    .address {
-        a {
-            display: block;
-            text-align: right;
-            font-size: 19px;
-            font-weight: 300;
-        }
-
-        a.mail {
-            margin-bottom: 10px;
-            border-bottom: 1px solid #fff;
-            font-size: 22px;
-        }
-    }
-}

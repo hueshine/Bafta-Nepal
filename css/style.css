@@ -379,13 +379,8 @@ header .wrap .menu .icon svg {
   width: 55%;
 }
 
-.slider .client-slider .item .inner .client-des h3 {
-  display: block;
-  margin-bottom: 50px;
-}
-
 .slider .client-slider .item .inner .client-des p {
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .news h1 {
@@ -457,8 +452,8 @@ header .wrap .menu .icon svg {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  width: 325px;
-  min-height: 400px;
+  width: 340px;
+  min-height: 380px;
   overflow: hidden;
   position: relative;
 }
@@ -500,7 +495,7 @@ header .wrap .menu .icon svg {
 }
 
 .news .news-slider .owl-stage .owl-item .item .inner .card-overlay .text-overlay .cta {
-  margin-top: 265px;
+  margin-top: 240px;
   text-align: left;
 }
 
@@ -523,6 +518,42 @@ footer p {
   line-height: 20px;
 }
 
+footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-top .footer-logo a h3 {
+  font-size: 66px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+footer .footer-top .footer-logo a p {
+  font-size: 18px;
+}
+
+footer .footer-top .address a {
+  display: block;
+  text-align: right;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+footer .footer-top .address a:hover {
+  color: #ffffff;
+}
+
+footer .footer-top .address a.mail {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  font-size: 22px;
+}
+
 footer .bottom {
   margin-top: 80px;
   border-top: 1px solid #ffffff;
@@ -543,37 +574,5 @@ footer .bottom ul {
 footer .bottom ul li {
   padding: 0 30px;
   text-align: center;
-}
-
-.footer-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.footer-top .footer-logo a h3 {
-  font-size: 66px;
-  letter-spacing: 5px;
-  margin-bottom: 20px;
-}
-
-.footer-top .footer-logo a p {
-  font-size: 18px;
-}
-
-.footer-top .address a {
-  display: block;
-  text-align: right;
-  font-size: 19px;
-  font-weight: 300;
-}
-
-.footer-top .address a.mail {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #fff;
-  font-size: 22px;
 }
 /*# sourceMappingURL=style.css.map */
