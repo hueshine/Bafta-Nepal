@@ -22,9 +22,9 @@ $('.client-slider').owlCarousel({
 
 $('.news-slider').owlCarousel({
     
-    center: true,
+    // center: true,
     loop:true,
-    margin:10,
+    margin:40,
     nav:true,
     responsive:{
         0:{
