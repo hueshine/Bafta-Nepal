@@ -1,4 +1,21 @@
 
+// const menuBtn = document.querySelector('.icon');
+// const navBox = document.querySelector('.nav-hub')
+
+// menuBtn.addEventListener('click',(e) => {
+//     e.preventDefault();
+//     menuBtn.classList.toggle('active')
+//     console.log("clicked")
+//     navBox.classList.toggle("active")
+// })
+
+// closeBtn.addEventListener('click',(e) => {
+//     e.preventDefault();
+//     navBox.classList.remove("active")
+// })
+
+
+
 $('.client-slider').owlCarousel({
     
     loop:true,

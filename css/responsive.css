@@ -27,9 +27,29 @@
     .container {
         max-width: 980px;
     }
-    .mission .wrap .left, .mission .wrap .right{
-        width: 43%;
+
+    .nav-hub .footer-list{
+        display: none;
     }
+
+    .main .page-grid .left img {
+        width: 71%;
+        height: 504px;
+    }
+
+    .main .page-grid .right img {
+        width: 81%;
+        height: 340px;
+    }
+
+    .main .page-grid .right {
+        margin-top: -258px;
+    }
+
+    .service-list h1 {
+        font-size: 62px;
+    }
+
     .clients-slider .owl-carousel .owl-prev {
         left: 35vw !important;
     }
@@ -91,6 +111,15 @@
 
 @media screen and (max-width: 768px) {
 
+    h1{
+        font-size: 61px;
+        line-height: 61px;
+    }
+
+    h2{
+        font-size: 75px;
+        line-height: 75px;
+    }
 
     header .slogan, header .menu .link{
         display: none;
@@ -100,30 +129,25 @@
         padding: 80px 0;
     }
 
-    .mission .wrap{
-        flex-direction: column-reverse;
+    .main .page-grid .left img {
+        width: 68%;
+        height: 377px;
     }
 
-    .mission .right img{
-        display: none;
+    .main .page-grid .right img {
+        width: 81%;
+        height: 225px;
     }
 
-    .mission .wrap .left, .mission .wrap .right {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .mission .right, .mission h1 {
-        margin-bottom: 50px;
-    }
-
-    .mission h1{
-        padding-left: 0 !important;
+    .main .page-grid .right {
+        margin-top: -174px;
     }
 
     .service-list h1 {
         width: 100%;
         margin-bottom: 40px;
+        font-size: 48px;
+        line-height: 52px;
     }
 
     .service-list li:first-child {
@@ -158,6 +182,11 @@
 }
 
 @media screen and (max-width: 480px) { 
+    
+    .container{
+        max-width: 460px;
+    }
+    
     .intro {
         height: auto;
         display: block;
@@ -168,12 +197,29 @@
         bottom: 20px;
     }
 
+    .main .page-grid .heading {
+        grid-column: 3/ span 8;
+        margin-top: 0;
+    }
+
+    .main .picture{
+        margin-top: 45px;
+    }
+
+    .main img{
+        width: 100% !important	;
+    }
+
+    .main .page-grid .text {
+        grid-column: 1/span 12;
+    }
+
     .service-list li {
         display: block;
     }
 
-    .service-list li h2 {
-        width: 100%;
+    .service-list li h1 {
+       
         margin-bottom: 30px;
     }
 
